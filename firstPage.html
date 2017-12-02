@@ -13,6 +13,19 @@
 	<h2>This is another heading</h2>
 	<h6>This is another heading</h6>
 
+	<!-- The local image demoImage.png gets loaded from the current working directory -->
+	<img src="demoImage.png"/>
+
+	<!-- Always specify the protocol otherwise the link will be treated as a filename in the current directory to go to -->
+	<div>
+		<a href="http://www.google.com">Click me to go to google</a>
+	</div>
+
+	<!-- As the protocol is not specified this loads the page2.html in the current directory -->
+	<div>
+		<a href="page2.html">Goto Page 2</a>
+	</div>
+
 	<!-- <i> and <b> tag though used below should be replaced with <em> and <strong> tags as per HTML5 standard -->
 
 	<p>Lorem Ipsum is <strong>simply dummy text</strong> of the <b>printing</b> and typesetting industry. 
