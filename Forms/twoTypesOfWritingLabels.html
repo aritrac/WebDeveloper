@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- action - where the form send data to -->
+	<!-- method - what HTTP method (get/post) -->
+	<!-- form is a block level element -->
+	<!-- label tags are important for screen reading software to know which field is what so the visually impaired person will be able to work -->
+
+	<!-- First Type Of Labels -->
+	<form action="http://www.wikipedia.org">
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="password">
+		</label>
+		<input type="Submit">
+	</form>
+
+	<!-- Second Type Of Labels -->
+	<form action="http://www.wikipedia.org">
+		<label for="username">Username:</label>
+		<input id="username" name="username" type="text" placeholder="username">
+		<label for="password">Password:</label>
+		<input id="password" name="username" type="password" placeholder="password">
+		<input type="Submit">
+	</form>
+</body>
+</html>
