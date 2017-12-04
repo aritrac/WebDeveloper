@@ -1,0 +1,70 @@
+<!-- DOCTYPE basically provides consistency across browsers that the content of this page will be using HTML5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- metadata goes in head -->
+	<!-- The title tag is used by search engines and is really important -->
+	<title>My First Page</title>
+</head>
+<body>
+	<!-- content goes in the body -->
+	<!-- <h1> to <h6> will provide heading highlights with h1 the biggest and h6 being the smallest -->
+	<h1>This is my first tag!!!</h1>
+	<h2>This is another heading</h2>
+	<h6>This is another heading</h6>
+
+	<!-- The local image demoImage.png gets loaded from the current working directory -->
+	<img src="demoImage.png"/>
+
+	<!-- Always specify the protocol otherwise the link will be tre
+
+	ated as a filename in the current directory to go to -->
+	<div>
+		<a href="http://www.google.com">Click me to go to google</a>
+	</div>
+
+	<!-- As the protocol is not specified this loads the page2.html in the current directory -->
+	<div>
+		<a href="page2.html">Goto Page 2</a>
+	</div>
+
+	<!-- <i> and <b> tag though used below should be replaced with <em> and <strong> tags as per HTML5 standard -->
+
+	<p>Lorem Ipsum is <strong>simply dummy text</strong> of the <b>printing</b> and typesetting industry. 
+	   <i>Lorem Ipsum</i> has been the industry's standard dummy text ever since the 1500s, 
+	   when an unknown printer took a galley of type and scrambled it to make a type 
+	   specimen book. It has survived not only five centuries, but also the leap into 
+	   electronic <em>typesetting</em>, remaining essentially unchanged. It was popularised in 
+	   the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+	   and more recently with desktop publishing software like Aldus PageMaker including 
+	   versions of Lorem Ipsum.
+	</p>
+	<p>text ever since the 1500s, 
+	   when an unknown printer took a galley of type 
+	</p>
+
+	<h3>Ordered List Creation</h3>
+	<ol>
+		<li>Red</li>
+		<li>Orange</li>
+		<li>Yellow
+			<ul>
+				<li>Sunflower</li>
+				<li>Banana
+					<ol>
+						<li>Frozen Banana</li>
+						<li>Non-Frozen Banana</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+	</ol>
+
+	<h3>Unordered List Creation</h3>
+	<ul>
+		<li><strong>Red</strong></li>
+		<li>Orange</li>
+		<li>Yellow</li>
+	</ul>
+</body>
+</html>
