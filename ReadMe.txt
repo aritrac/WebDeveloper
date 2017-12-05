@@ -2,17 +2,19 @@ This is a tutorial on Web Development using various technology stacks currently 
 
 Examples:
 ********
-The Exercise2_Div_Span_Demo contains a HTML file to show the basic difference between <div> and <span> elements
+The Section2_Div_Span_Demo contains a HTML file to show the basic difference between <div> and <span> elements
 
 The Misc_Artifacts contains the syllabus and the course slides, something which should not be considered as a demo project
 
-The Exercise1_Welcome_Demo shows the basic structure of HTML and most of the common elements that we use and its attributes
+The Section1_Welcome_Demo shows the basic structure of HTML and most of the common elements that we use and its attributes
 
-The Exercise3_Tables contains basic html code to show how we can create tables in HTML
+The Section3_Tables contains basic html code to show how we can create tables in HTML
 
-The Exercise4_Forms contains basic html to help understand labels forms input types and simple validations and how does a form really work as a container
+The Section4_Forms contains basic html to help understand labels forms input types and simple validations and how does a form really work as a container
 
-The Exercise5_CSSDemo contains basic introduction to CSS styling and CSS selectors and pseudo selectors
+The Section5_CSSDemo contains basic introduction to CSS styling and CSS selectors and pseudo selectors
+
+The Section6_TextAndFonts contains various CSS constructs on tuning text and font requirements and also using custom fonts
 
 The Exercise1_Welcome_Demo contains the solution of the Welcome Demo tutorial
 
