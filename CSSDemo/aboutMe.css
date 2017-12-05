@@ -1,0 +1,19 @@
+h1{
+	color: rgba(0,200,100,0.8);
+	/*One way of providing a border*/
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	/*Second way of providing a border*/
+	border: 2px solid rgb(255,100,80);
+}
+h4{
+	background: rgb(255,100,80);
+}
+body{
+	background: pink;
+	/*background: url("https://i.pinimg.com/736x/27/51/08/275108132399f75f6417bff5d18b13c1--wood-grain-texture-wood-grain-pattern.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
