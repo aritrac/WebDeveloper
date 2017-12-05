@@ -1,0 +1,31 @@
+/*Type Selectors*/
+
+li {
+	/*Specificity = 1*/
+}
+
+li a {
+	/*Specificity = 2*/
+}
+
+li + a {
+	/*Specificity = 2*/
+}
+
+/*Class, Attribute, and Pseudo-Class Selectors*/
+
+.hello{
+	/*Specificity = 10*/
+}
+	
+input[type="text"]{
+	/*Specificity = 11*/
+}
+
+a:hover /*Specificity = 11*/
+input:checked /*Specificity = 11*/
+
+/*ID Selectors*/
+#hello{
+	/*Specificity = 100*/
+}

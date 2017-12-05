@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This example shows that the child elements inherit the parent css properties -->
+	<!-- So when body is styled, then all elements in the body inherits it -->
+	<!-- When ul is styled all li elements inherit the same style -->
+	<!-- Specificity is all about multiple styles targeting a particular element, but only one of them gets applied according to weightage
+	which gets calculated based on a mathematical formula. https://specificity.keegan.st can show the specificity of a style-->
+	<title>Specificity</title>
+	<style type="text/css">
+		ul{
+			color: blue;
+		}
+		body{
+			color: red;
+		}
+		p{
+			color: green;
+		}
+		li{
+			color: orange;
+		}
+		.highlight{
+			color: yellow;
+		}
+		#special{
+			color: pink;
+		}
+	</style>
+</head>
+<body>
+	<p>HELLO!!!</p>
+
+	<ul>
+		<li id="special" class="highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+</body>
+</html>
