@@ -12,6 +12,8 @@ The Tables contains basic html code to show how we can create tables in HTML
 
 The Forms contains basic html to help understand labels forms input types and simple validations and how does a form really work as a container
 
+The CSSDemo contains basic introduction to CSS styling and CSS selectors and pseudo selectors
+
 The Exercise1 contains the solution of the Welcome Demo tutorial
 
 The Exercise2 contains the solution of the Image and Anchor tag
@@ -19,3 +21,5 @@ The Exercise2 contains the solution of the Image and Anchor tag
 The Exercise3 contains the solution of the Tables module in which we build a Pokemon table to understand tables better
 
 The Exercise4 contains the solution of the Forms module in which we use form and various inputs and validations to build a dummy form which can be submitted
+
+The Exercise5 contains the solution of the CSS module in which we use CSS styling and CSS selectors to apply style to a HTML skeleton
