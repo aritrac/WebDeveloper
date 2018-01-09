@@ -1,0 +1,42 @@
+.midHor{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black 
+}
+
+.midVer{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+h1{
+	padding-left: 50%;
+}
+
+div{
+	padding-left: 46%;
+}
+
+.topRemove{
+	border-top: 0px;
+}
+
+.bottomRemove{
+	border-bottom: 0px;
+}
+
+.leftRemove{
+	border-left: 0px;
+}
+
+.rightRemove{
+	border-right: 0px;
+}
