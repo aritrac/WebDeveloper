@@ -29,4 +29,5 @@ _The Exercise4_Forms contains the solution of the Forms module in which we use f
 
 _The Exercise5_CSS contains the solution of the CSS module in which we use CSS styling and CSS selectors to apply style to a HTML skeleton_
 
-_The Exercise6_BoxModel contains how to create a static tic tac toe board with box model_
+_The Exercise6_BoxModel contains how to create a static tic tac toe board with box model, after that we create a photo gallery using concepts learnt and lastly_
+_we try building a static blog page using concepts got from box model_

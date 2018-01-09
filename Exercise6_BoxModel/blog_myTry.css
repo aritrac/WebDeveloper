@@ -1,0 +1,44 @@
+div{
+	width: 60%;
+	border: 20px solid #bdc3c7;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.normal2{
+	color: #2c3e50;
+	font-weight: 400;
+	padding-left: 5px;
+	width: 95%;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #F1F1F1;
+}
+p {
+	color: #3498db;
+	margin-left: 20px;
+	font-family: Source Sans Pro;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: Source Sans Pro;
+	margin-left: 20px;
+	color: #2c3e50;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.indent{
+	color: #2c3e50;
+	font-weight: 400;
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+	width: 95%;
+}
+
+.normal{
+	color: #2c3e50;
+	font-weight: 400;
+	padding-left: 5px;
+	width: 95%;
+}
