@@ -1,7 +1,7 @@
 # This is a tutorial on Web Development using various technology stacks currently in use.
 
 Examples:
-*********
+***
 *The Section2_Div_Span_Demo contains a HTML file to show the basic difference between <div> and <span> elements*
 
 *The Misc_Artifacts contains the syllabus and the course slides, something which should not be considered as a demo project*
@@ -17,7 +17,7 @@ Examples:
 *The Section6_TextFontsAndBoxModels contains various CSS constructs on tuning text and font requirements and also using custom fonts also a small intro to BoxModel is provided*
 
 Exercises
-*********
+***
 
 *The Exercise1_Welcome_Demo contains the solution of the Welcome Demo tutorial*
 
