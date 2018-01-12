@@ -16,6 +16,8 @@ _The Section5_CSSDemo contains basic introduction to CSS styling and CSS selecto
 
 _The Section6_TextFontsAndBoxModels contains various CSS constructs on tuning text and font requirements and also using custom fonts also a small intro to BoxModel is provided_
 
+_The Section7_BootstrapExamples contain various ways we will use Bootstrap examples in the sites we design_
+
 ####Exercises
 ***
 

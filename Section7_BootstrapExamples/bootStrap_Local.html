@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<!-- Physical CSS File Reference -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+
+	<!-- CDN CSS File Reference -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Overriding Bootstrap CSS Styling classes to suit our needs -->
+	<style type="text/css">
+	.btn-danger{
+		background-color: orange;
+	}
+	</style>
+</head>
+<body>
+	<h1>Bootstrap Basics</h1>
+
+	<!-- Buttons using html buttton element with success styling -->
+	<button class="btn btn-success">CLICK ME!</button>
+
+	<!--Buttons using html button with danger styling  -->
+	<button class="btn btn-danger">CLICK ME!</button>
+
+	<!-- Active Buttons -->
+	<button class="btn btn-success active">CLICK ME!</button>
+
+	<!-- Disabled Buttons -->
+	<button class="btn btn-success" disabled="disabled">CLICK ME!</button>
+
+	<!-- Making the buttons extra small -->
+	<button class="btn btn-success btn-xs">CLICK ME SMALL!</button>
+
+	<!-- Buttons using html anchor elements -->
+	<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+</body>
+</html>
