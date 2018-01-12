@@ -15,24 +15,69 @@
 	</style>
 </head>
 <body>
-	<h1>Bootstrap Basics</h1>
+	<!-- A jumbotron component -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1>This is a jumbotron</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<button class="btn btn-success btn-lg">Hi there</button>
+		</div>
 
-	<!-- Buttons using html buttton element with success styling -->
-	<button class="btn btn-success">CLICK ME!</button>
+		<h1>Bootstrap Basics</h1>
 
-	<!--Buttons using html button with danger styling  -->
-	<button class="btn btn-danger">CLICK ME!</button>
+		<!-- Buttons using html buttton element with success styling -->
+		<button class="btn btn-success">CLICK ME!</button>
 
-	<!-- Active Buttons -->
-	<button class="btn btn-success active">CLICK ME!</button>
+		<!--Buttons using html button with danger styling  -->
+		<button class="btn btn-danger">CLICK ME!</button>
 
-	<!-- Disabled Buttons -->
-	<button class="btn btn-success" disabled="disabled">CLICK ME!</button>
+		<!-- Active Buttons -->
+		<button class="btn btn-success active">CLICK ME!</button>
 
-	<!-- Making the buttons extra small -->
-	<button class="btn btn-success btn-xs">CLICK ME SMALL!</button>
+		<!-- Disabled Buttons -->
+		<button class="btn btn-success" disabled="disabled">CLICK ME!</button>
 
-	<!-- Buttons using html anchor elements -->
-	<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+		<!-- Making the buttons extra small -->
+		<button class="btn btn-success btn-xs">CLICK ME SMALL!</button>
+
+		<!-- Buttons using html anchor elements -->
+		<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+		<!-- A simple bootstrap form -->
+		<form>
+  			<div class="form-group">
+    			<label for="exampleInputEmail1">Email address</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">Password</label>
+    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputFile">File input</label>
+    			<input type="file" id="exampleInputFile">
+    			<p class="help-block">Example block-level help text here.</p>
+  			</div>
+  			<div class="checkbox">
+    			<label>
+      				<input type="checkbox"> Check me out
+    			</label>
+  			</div>
+  			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<!-- An example of inline form -->
+		<form class="form-inline">
+  			<div class="form-group">
+  				<label for="exampleInputName2">Name</label>
+    			<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputEmail2">Email</label>
+    			<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  			</div>
+  			<button type="submit" class="btn btn-default">Send invitation</button>
+		</form>
+	</div>
 </body>
 </html>
