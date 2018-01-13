@@ -46,3 +46,5 @@ _Asks for the users age_
 _Prints out the users full name in a sentence_
 _Prints out the users age in a sentence_
 
+_The Exercise8_AgeCalculator is an exercise where we calculate the number of days from the number of years taking into_
+_account the number of leap years_
