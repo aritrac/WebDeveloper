@@ -20,6 +20,9 @@ _The Section7_BootstrapExamples contain various ways we will use Bootstrap examp
 _specifically it talks about buttons, forms, navbars, grid system. Also we create an image gallery and a landing page for a _
 _fictitious startup_
 
+_The Section8_JavascriptExamples contains how to use the javascript console to execute Javascript_
+_Then 5 primitive data types and numbers and numeric operators and then string and string methods_
+
 ####Exercises
 ***
 
@@ -35,3 +38,11 @@ _The Exercise5_CSS contains the solution of the CSS module in which we use CSS s
 
 _The Exercise6_BoxModel contains how to create a static tic tac toe board with box model, after that we create a photo gallery using concepts learnt and lastly_
 _we try building a static blog page using concepts got from box model_
+
+_The Exercise8_JSStalker is an exercise where it tests our knowledge of Variables, Strings, Promot and Console.log_
+_It asks for the users firstname_
+_It asks for the users lastname_
+_Asks for the users age_
+_Prints out the users full name in a sentence_
+_Prints out the users age in a sentence_
+
