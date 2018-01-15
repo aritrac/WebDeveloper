@@ -23,6 +23,8 @@ _fictitious startup_
 _The Section8_JavascriptExamples contains how to use the javascript console to execute Javascript_
 _Then 5 primitive data types and numbers and numeric operators and then string and string methods_
 
+_The Section9_JSControlFlow contains_
+
 ####Exercises
 ***
 
@@ -48,3 +50,6 @@ _Prints out the users age in a sentence_
 
 _The Exercise8_AgeCalculator is an exercise where we calculate the number of days from the number of years taking into_
 _account the number of leap years_
+
+_The Exercise9_JSControlFlows is an exercise where we make use of if else if and else for an application logic_
+_also we build a simple guessing game_
