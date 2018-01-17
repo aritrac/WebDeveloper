@@ -52,4 +52,4 @@ _The Exercise8_AgeCalculator is an exercise where we calculate the number of day
 _account the number of leap years_
 
 _The Exercise9_JSControlFlows is an exercise where we make use of if else if and else for an application logic_
-_also we build a simple guessing game_
+_also we build a simple guessing game after that we build some logic using while loop and then Annoy-omatic game_
