@@ -23,7 +23,10 @@ _fictitious startup_
 _The Section8_JavascriptExamples contains how to use the javascript console to execute Javascript_
 _Then 5 primitive data types and numbers and numeric operators and then string and string methods_
 
-_The Section9_JSControlFlow contains_
+_The Section9_JSControlFlow contains nothing_
+
+_The Section10_JSFunctions contains JS functions examples which portray the usage of functions and how to use arguments with it_
+_also it contains exercises to show use of return keyword, calculating factorial and making snake case from kebab case_
 
 ####Exercises
 ***
