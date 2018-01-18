@@ -30,6 +30,7 @@ _also it contains exercises to show use of return keyword, calculating factorial
 _we also work on higher order functions usages and JS scopes via different examples_
 
 _The Section11_JSArrays contains_array examples and methods exposed by arrays such as length push pop shift unshift indexOf and slice_
+_We also work with for loops and forEach with arrays_
 
 ####Exercises
 ***
