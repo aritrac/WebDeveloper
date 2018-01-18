@@ -27,6 +27,7 @@ _The Section9_JSControlFlow contains nothing_
 
 _The Section10_JSFunctions contains JS functions examples which portray the usage of functions and how to use arguments with it_
 _also it contains exercises to show use of return keyword, calculating factorial and making snake case from kebab case_
+_we also work on higher order functions usages and JS scopes via different examples_
 
 ####Exercises
 ***
