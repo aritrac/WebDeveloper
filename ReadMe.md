@@ -29,6 +29,8 @@ _The Section10_JSFunctions contains JS functions examples which portray the usag
 _also it contains exercises to show use of return keyword, calculating factorial and making snake case from kebab case_
 _we also work on higher order functions usages and JS scopes via different examples_
 
+_The Section11_JSArrays contains_array examples and methods exposed by arrays such as length push pop shift unshift indexOf and slice_
+
 ####Exercises
 ***
 
@@ -58,3 +60,6 @@ _account the number of leap years_
 _The Exercise9_JSControlFlows is an exercise where we make use of if else if and else for an application logic_
 _also we build a simple guessing game after that we build some logic using while loop and then Annoy-omatic game
 and after that we write some problem sets for for loops_
+
+_The Exercise11_JSArrays contains example usages of push pop shift unshift indexOf slice and accessing indices of an array_
+_also we code along on how to create a To Do list using arrays_
