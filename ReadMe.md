@@ -23,8 +23,19 @@ _fictitious startup_
 _The Section8_JavascriptExamples contains how to use the javascript console to execute Javascript_
 _Then 5 primitive data types and numbers and numeric operators and then string and string methods_
 
+<<<<<<< HEAD
 _The Section10_JSFunctions_
 
+=======
+_The Section9_JSControlFlow contains nothing_
+
+_The Section10_JSFunctions contains JS functions examples which portray the usage of functions and how to use arguments with it_
+_also it contains exercises to show use of return keyword, calculating factorial and making snake case from kebab case_
+_we also work on higher order functions usages and JS scopes via different examples_
+
+_The Section11_JSArrays contains_array examples and methods exposed by arrays such as length push pop shift unshift indexOf and slice_
+_We also work with for loops and forEach with arrays_
+>>>>>>> d6ba02fc02732b212d723137641acf6c20b53199
 
 ####Exercises
 ***
@@ -55,3 +66,6 @@ _account the number of leap years_
 _The Exercise9_JSControlFlows is an exercise where we make use of if else if and else for an application logic_
 _also we build a simple guessing game after that we build some logic using while loop and then Annoy-omatic game
 and after that we write some problem sets for for loops_
+
+_The Exercise11_JSArrays contains example usages of push pop shift unshift indexOf slice and accessing indices of an array_
+_also we code along on how to create a To Do list using arrays_
