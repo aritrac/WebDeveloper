@@ -69,4 +69,4 @@ _The Exercise11_JSArrays contains example usages of push pop shift unshift index
 _also we code along on how to create a To Do list using arrays and also modify the To Do list in another session to incorporate functions
 and the usage of foreach. Lastly we do an array problem set (isUniform, printReverse, max and sumArray)_
 
-_The Exercise12_JSObjects contains_
+_The Exercise12_JSObjects contains object exercises on object basics taught in Section12_JSObjects_
