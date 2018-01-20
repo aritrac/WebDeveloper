@@ -33,7 +33,8 @@ _The Section11_JSArrays contains_array examples and methods exposed by arrays su
 _We also work with for loops and forEach with arrays. In the last part we discuss forEach and how it works and also create custom_
 _forEach implementation and add it to Array.prototype_
 
-_The Section12_JSObjects contains_
+_The Section12_JSObjects contains difference between Array and Object syntax and object basics. We also see how we can add methods_
+_to objects_
 
 ####Exercises
 ***
@@ -70,3 +71,4 @@ _also we code along on how to create a To Do list using arrays and also modify t
 and the usage of foreach. Lastly we do an array problem set (isUniform, printReverse, max and sumArray)_
 
 _The Exercise12_JSObjects contains object exercises on object basics taught in Section12_JSObjects_
+_and also we build a movieDB to demonstrate the object basics learnt_
