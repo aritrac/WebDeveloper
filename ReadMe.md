@@ -30,7 +30,8 @@ _also it contains exercises to show use of return keyword, calculating factorial
 _we also work on higher order functions usages and JS scopes via different examples_
 
 _The Section11_JSArrays contains_array examples and methods exposed by arrays such as length push pop shift unshift indexOf and slice_
-_We also work with for loops and forEach with arrays. In the last part we discuss forEach and how it works_
+_We also work with for loops and forEach with arrays. In the last part we discuss forEach and how it works and also create custom_
+_forEach implementation and add it to Array.prototype_
 
 _The Section12_JSObjects contains_
 
