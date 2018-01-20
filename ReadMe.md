@@ -34,7 +34,7 @@ _We also work with for loops and forEach with arrays. In the last part we discus
 _forEach implementation and add it to Array.prototype_
 
 _The Section12_JSObjects contains difference between Array and Object syntax and object basics. We also see how we can add methods_
-_to objects_
+_to objects and discuss the this keyword_
 
 ####Exercises
 ***
