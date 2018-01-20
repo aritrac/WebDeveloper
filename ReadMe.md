@@ -63,4 +63,4 @@ _also we build a simple guessing game after that we build some logic using while
 and after that we write some problem sets for for loops_
 
 _The Exercise11_JSArrays contains example usages of push pop shift unshift indexOf slice and accessing indices of an array_
-_also we code along on how to create a To Do list using arrays_
+_also we code along on how to create a To Do list using arrays and also modify the To Do list in another session_
