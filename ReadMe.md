@@ -30,7 +30,9 @@ _also it contains exercises to show use of return keyword, calculating factorial
 _we also work on higher order functions usages and JS scopes via different examples_
 
 _The Section11_JSArrays contains_array examples and methods exposed by arrays such as length push pop shift unshift indexOf and slice_
-_We also work with for loops and forEach with arrays_
+_We also work with for loops and forEach with arrays. In the last part we discuss forEach and how it works_
+
+_The Section12_JSObjects contains_
 
 ####Exercises
 ***
@@ -65,3 +67,5 @@ and after that we write some problem sets for for loops_
 _The Exercise11_JSArrays contains example usages of push pop shift unshift indexOf slice and accessing indices of an array_
 _also we code along on how to create a To Do list using arrays and also modify the To Do list in another session to incorporate functions
 and the usage of foreach. Lastly we do an array problem set (isUniform, printReverse, max and sumArray)_
+
+_The Exercise12_JSObjects contains_
