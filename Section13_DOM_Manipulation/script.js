@@ -59,3 +59,9 @@ function setStylesDynamically(){
 	tag.style.background = "yellow";
 	tag.style.marginTop = "200px";
 }
+
+function setStylesUsingCSSClass(){
+	var tag = document.getElementById("highlight");
+	//add the css class to the selected element instead of setting each css property like the above method
+	tag.classList.add("some-class");
+}
