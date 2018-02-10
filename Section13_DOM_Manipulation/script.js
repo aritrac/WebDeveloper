@@ -37,3 +37,13 @@ function getByQuerySelector(){
 	var tag4 = document.querySelector("li a.special");
 	console.log(tag4);
 }
+
+function getByQuerySelectorAll(){
+	//Example1 -> All h1 tags will be selected
+	var tag1 = document.querySelectorAll("h1");
+	console.log(tag1);
+
+	//Example2 -> Class elements having class bolded will be selected
+	var tag2 = document.querySelectorAll(".bolded");
+	console.log(tag2);
+}
