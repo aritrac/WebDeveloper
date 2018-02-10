@@ -20,7 +20,11 @@ function getElesByTagName(){
 }
 
 function getByQuerySelector(){
-	//Example1
+	//Example1 -> ID Selector
 	var tag = document.querySelector("#highlight");
 	console.log(tag);
+
+	//Example2 -> Class Selector
+	var tag2 = document.querySelector(".bolded");
+	console.log(tag2);
 }
