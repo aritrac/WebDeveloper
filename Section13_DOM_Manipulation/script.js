@@ -47,3 +47,15 @@ function getByQuerySelectorAll(){
 	var tag2 = document.querySelectorAll(".bolded");
 	console.log(tag2);
 }
+
+//Setting styles using style DOM property
+function setStylesDynamically(){
+	var tag = document.getElementById("highlight");
+
+	//Manipulate
+	tag.style.color = "blue";
+	tag.style.border = "10px solid red";
+	tag.style.fontSize = "70px";
+	tag.style.background = "yellow";
+	tag.style.marginTop = "200px";
+}

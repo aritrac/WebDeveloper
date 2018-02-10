@@ -11,6 +11,9 @@ function selectIn4DiffWays(){
 
 	var selTagWay4 = document.querySelector(".special");
 	console.log(selTagWay4);
+
+	var selTagWay5 = document.querySelector("h1 + p");
+	console.log(selTagWay5);
 }
 
 selectIn4DiffWays();

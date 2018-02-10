@@ -36,6 +36,9 @@ _forEach implementation and add it to Array.prototype_
 _The Section12_JSObjects contains difference between Array and Object syntax and object basics. We also see how we can add methods_
 _to objects and discuss the this keyword_
 
+_The Section13_DOM_Manipulation contains dom manipulation methods which are commonly used, important DOM properties_
+_and different element selector methods and the multiple ways we can use them. We also introduce style DOM property to set CSS._
+
 ####Exercises
 ***
 
@@ -72,3 +75,6 @@ and the usage of foreach. Lastly we do an array problem set (isUniform, printRev
 
 _The Exercise12_JSObjects contains object exercises on object basics taught in Section12_JSObjects_
 _and also we build a movieDB to demonstrate the object basics learnt_
+
+_The Exercise13_DOM_Manipulation contains different ways to select a particular DOM element using the dom selector methods discussed_
+_in Section13_DOM_Manipulation_
