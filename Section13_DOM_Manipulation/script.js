@@ -27,4 +27,8 @@ function getByQuerySelector(){
 	//Example2 -> Class Selector
 	var tag2 = document.querySelector(".bolded");
 	console.log(tag2);
+
+	//Example3 -> Tag Selector
+	var tag3 = document.querySelector("h1");
+	console.log(tag3);
 }
