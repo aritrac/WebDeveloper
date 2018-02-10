@@ -31,4 +31,9 @@ function getByQuerySelector(){
 	//Example3 -> Tag Selector
 	var tag3 = document.querySelector("h1");
 	console.log(tag3);
+
+	//Example4 -> Hierarchy Selector
+	//Select all anchor tags within a li tag with class special
+	var tag4 = document.querySelector("li a.special");
+	console.log(tag4);
 }
