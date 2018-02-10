@@ -11,3 +11,16 @@ function getElesByClassName(){
 	console.log(tagNew[0]);
 	console.log(tagNew[1]);
 }
+
+function getElesByTagName(){
+	var tagMew = document.getElementsByTagName("li");
+	console.log(tagMew);
+	var h1s = document.getElementsByTagName("h1");
+	console.log(h1s);
+}
+
+function getByQuerySelector(){
+	//Example1
+	var tag = document.querySelector("#highlight");
+	console.log(tag);
+}
