@@ -38,6 +38,7 @@ _to objects and discuss the this keyword_
 
 _The Section13_DOM_Manipulation contains dom manipulation methods which are commonly used, important DOM properties_
 _and different element selector methods and the multiple ways we can use them. We also introduce style DOM property to set CSS._
+_Also, we get introduced to manipulating text as pure text and innerHTML. We take a look at how we can manipulate html element attributes next._
 
 ####Exercises
 ***

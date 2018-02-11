@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manipulate html attributes</title>
+</head>
+<body>
+	<a href="http://www.google.com">I am a link</a>
+	<img src="images/google.png"/><br/>
+	<button id="changeAttribs" onclick="changeTagAttributes()">Change Tag Attribs</button><br/>
+	<script type="text/javascript">
+		function changeTagAttributes(){
+			var link = document.querySelector("a");
+			link.getAttribute("href");	//www.google.com
+			//change HREF attribute
+			link.setAttribute("href","http://www.bing.com");
+
+			//To change the Image src
+			var img = document.querySelector("img");
+			img.setAttribute("src","images/bing.png");
+		}
+	</script>
+</body>
+</html>
