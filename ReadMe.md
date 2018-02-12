@@ -40,6 +40,8 @@ _The Section13_DOM_Manipulation contains dom manipulation methods which are comm
 _and different element selector methods and the multiple ways we can use them. We also introduce style DOM property to set CSS._
 _Also, we get introduced to manipulating text as pure text and innerHTML. We take a look at how we can manipulate html element attributes next._
 
+_The Section14_DOM_Events_
+
 ####Exercises
 ***
 
