@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<script type="text/javascript" src="scoreKeeper.js"></script>
+	<style type="text/css">
+		.won {
+			color: green;
+		}
+		.orig {
+			color: black;
+		}
+	</style>
+</head>
+<body onload="init()">
+	<span><h1 id="player1Sc">0</h1><h1>to</h1><h1 id="player2Sc">0</h1></span>
+	<h3>Playing to: 7</h3>
+	<input id="numSpinner" type="number" name="playTo" min="1"/>
+	<button id="player1">Player One</button>
+	<button id="player2">Player Two</button>
+	<button id="reset">Reset</button>
+</body>
+</html>

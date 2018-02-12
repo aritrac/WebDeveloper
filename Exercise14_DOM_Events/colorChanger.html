@@ -15,13 +15,25 @@
 			toggle = !toggle;
 		}
 
+		function toggleClass(){
+			document.body.classList.toggle("purple");
+		}
+
 		function init(){
 			var bttn = document.querySelector("button");
 			bttn.addEventListener("click", toggleColor);
+			var bttn2 = document.querySelectorAll("button")[1];
+			bttn2.addEventListener("click", toggleClass);
 		}
 	</script>
+	<style type="text/css">
+		.purple {
+			background: purple;
+		}
+	</style>
 </head>
 <body onload="init()">
 	<button id="clickMe">Click Me!</button>
+	<button id="clickMe2">Click Me2!</button>
 </body>
 </html>
