@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Color Changer App</title>
+	<script type="text/javascript">
+		var toggle = true;
+
+		function toggleColor(){
+			var bodyEle = document.querySelector("body");
+			if(toggle){
+				bodyEle.style.backgroundColor = "purple";
+			}else{
+				bodyEle.style.backgroundColor = "white";
+			}
+			toggle = !toggle;
+		}
+
+		function init(){
+			var bttn = document.querySelector("button");
+			bttn.addEventListener("click", toggleColor);
+		}
+	</script>
+</head>
+<body onload="init()">
+	<button id="clickMe">Click Me!</button>
+</body>
+</html>

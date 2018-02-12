@@ -82,3 +82,5 @@ _and also we build a movieDB to demonstrate the object basics learnt_
 
 _The Exercise13_DOM_Manipulation contains different ways to select a particular DOM element using the dom selector methods discussed_
 _in Section13_DOM_Manipulation_
+
+_the Exercise14_DOM_Manipulation contains a color changer application which makes use of DOM events learnt so far_
