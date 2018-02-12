@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Listeners To Element List Using Loop</title>
+	<script type="text/javascript">
+		function init(){
+			var elementList = document.querySelectorAll("li");
+			for(var i = 0; i < elementList.length; i++){
+				elementList[i].addEventListener("click",commonListener);
+			}
+		}
+
+		function commonListener(){
+			console.log("Listener called!!");
+		}
+	</script>
+</head>
+<body onload="init()">
+	<ul>
+		<li>Morning</li>
+		<li>Evening</li>
+		<li>Night</li>
+	</ul>
+</body>
+</html>

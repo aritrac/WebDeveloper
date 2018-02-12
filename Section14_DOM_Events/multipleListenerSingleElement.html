@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple Listeners</title>
+	<script type="text/javascript">
+		function addMultipleListeners(){
+			var buttn = document.querySelector("button");
+			buttn.addEventListener("click",evntListener1);
+			buttn.addEventListener("click",evntListener2);
+		}
+
+		function evntListener1(){
+			console.log("evntListener1: This listener is invoked first!!");
+		}
+
+		function evntListener2(){
+			console.log("evntListener2: This listener is invoked next!!");
+		}
+	</script>
+</head>
+<body onload="addMultipleListeners()">
+	<button id="clickMe">Click Me!</button>
+</body>
+</html>

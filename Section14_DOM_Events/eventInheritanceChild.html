@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Inheritance</title>
+	<script type="text/javascript">
+		function init(){
+			var ulElement = document.querySelector("ul");
+			ulElement.addEventListener("click", theListener);
+		}
+
+		function theListener(){
+			console.log("You clicked the ul element!!");
+		}
+	</script>
+</head>
+<body onload="init()">
+	<ul>
+		<li>Morning</li>
+		<li>Noon</li>
+		<li>Evening</li>
+	</ul>
+</body>
+</html>
