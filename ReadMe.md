@@ -84,4 +84,4 @@ _The Exercise13_DOM_Manipulation contains different ways to select a particular 
 _in Section13_DOM_Manipulation_
 
 _the Exercise14_DOM_Manipulation contains a color changer application which makes use of DOM events learnt so far. We also make a score keeper app
-using the same concepts_
+using the same concepts. The original app made by the author is also available_
