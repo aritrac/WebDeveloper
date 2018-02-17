@@ -41,7 +41,8 @@ _and different element selector methods and the multiple ways we can use them. W
 _Also, we get introduced to manipulating text as pure text and innerHTML. We take a look at how we can manipulate html element attributes next._
 
 _The Section14_DOM_Events explains how we add DOM listeners to HTML elements and also how we can attach multiple listeners to a single HTML element_
-_And also we see how parent listeners can be activated by child events_
+_And also we see how parent listeners can be activated by child events. We also see more about the mouseover and mouseout events and how to use it_
+_in conjunction with click events in todo.html_
 
 ####Exercises
 ***
