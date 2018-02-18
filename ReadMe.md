@@ -46,7 +46,8 @@ _in conjunction with click events in todo.html_
 
 _The Section15_RGB Color Game has been done as a separate github project and will not be found in this project_
 
-_The Section16_jQuery has tutorials on how to effectively use jQuery for day to day development purpose_
+_The Section16_jQuery has tutorials on how to effectively use jQuery for day to day development purpose. We learn_
+_how to use jQuery library locally and over CDN and what is the difference between minified and normal version_
 
 ####Exercises
 ***
