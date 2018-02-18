@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Demo</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h1>jQuery Demo!</h1>
+<ul>
+	<li>This is li 1</li>
+	<li>This is li 2</li>
+	<li>This is li 3</li>
+	<img src="images/demoImage.jpg"><br/>
+	<button id="trigger">Click This!</button>
+</ul>
+<script type="text/javascript">
+	//when a user clicks the button with id 'trigger'
+	$('#trigger').click(function(){
+		//change the body's background to yellow
+		$('body').css("background","yellow");
+		//fade out all img's over 3 seconds
+		$('img').fadeOut(3000, function(){
+			//remove imgs from page when fadeOut is done
+			$(this).remove();
+		});
+	});
+</script>
+</body>
+</html>
