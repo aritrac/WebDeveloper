@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)val()
+		 2)text()
+		 3)attr()
+		 4)html()
+		 5)addClass()
+		 6)removeClass()
+		 7)toggleClass()
+	-->
+	<h1>jQuery Method Demo Page</h1>
+	<input type="text" placeholder="your name">
+	<ul>
+		<li>Skittles</li>
+		<li>Starburst</li>
+		<li>Twix</li>
+	</ul>
+	<script type="text/javascript">
+		//text() method demo
+		console.log($("h1").text());
+		console.log($("ul").text());
+		console.log($("li").text());
+		$("h1").text("New Text!!!");
+		console.log($("h1").text());
+		$("li").text("Aritra is building a startup");
+
+		//html() method demo
+		console.log($("ul").html());
+		$("ul").html("<li>I hacked your UL!</li><li>Welcome to my startup</li>");
+		console.log($("ul").html());
+		$("li").html("<a href='http://google.co.in'>Click me to go to google home page</a>");
+		//text is considered as HTML safe, and it is not rendered by the browser
+		$("li").text("<a href='http://google.co.in'>Click me to go to google home page</a>");
+	</script>
+</body>
+</html>
