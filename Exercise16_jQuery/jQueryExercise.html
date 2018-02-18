@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Demo</title>
+	<!-- 1)Correctly include jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!--Things to be done:
+		1)Correctly include jQuery
+		2)Select all divs and give them a purple background
+		3)Select the divs with class 'highlight' and make them 200px wide
+		4)Select the div with id 'third' and give it a orange border
+		5)Bonus: Select the first div only and change its font color to pink
+	 -->
+	<div>Div 1</div>
+	<div class="highlight">Div 2</div>
+	<div id="third">Div 3</div>
+	<div class="highlight">Div 4</div>
+	<script type="text/javascript">
+		//2)Select all divs and give them a purple background
+		$("div").css({
+			backgroundColor: "purple"
+		});
+		//3)Select the divs with class 'highlight' and make them 200px wide
+		$("div.highlight").css({
+			width: "100px"
+		});
+		//4)Select the div with id 'third' and give it a orange border
+		$("#third").css({
+			borderWidth: "5px",
+			borderColor: "orangle",
+			borderStyle: "solid"
+		});
+		//5)Bonus: Select the first div only and change its font color to pink
+		//Method1
+		$("div:first-of-type").css({
+			color : "pink"
+		});
+		//Method2
+		$("div:first").css({
+			color : "pink"
+		});
+		//Method3
+		$("div").first().css({
+			color : "pink"
+		});
+	</script>
+</body>
+</html>

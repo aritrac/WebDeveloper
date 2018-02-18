@@ -48,6 +48,7 @@ _The Section15_RGB Color Game has been done as a separate github project and wil
 
 _The Section16_jQuery has tutorials on how to effectively use jQuery for day to day development purpose. We learn_
 _how to use jQuery library locally and over CDN and what is the difference between minified and normal version_
+_manipulating css using jquery with id class and element selectors_
 
 ####Exercises
 ***
@@ -94,4 +95,4 @@ using the same concepts. The original app made by the author is also available_
 
 _The Exercise15_RGBColor Game has been done as a part of RGBColorGame in my github repository. Please check that project_
 
-_The Exercise16_jQuery has the following examples_
+_The Exercise16_jQuery has css manipulation exercise using jQuery. The specific questions are included in the example itself_
