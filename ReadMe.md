@@ -44,6 +44,10 @@ _The Section14_DOM_Events explains how we add DOM listeners to HTML elements and
 _And also we see how parent listeners can be activated by child events. We also see more about the mouseover and mouseout events and how to use it_
 _in conjunction with click events in todo.html_
 
+_The Section15_RGB Color Game has been done as a separate github project and will not be found in this project_
+
+_The Section16_jQuery has tutorials on how to effectively use jQuery for day to day development purpose_
+
 ####Exercises
 ***
 
@@ -84,5 +88,9 @@ _and also we build a movieDB to demonstrate the object basics learnt_
 _The Exercise13_DOM_Manipulation contains different ways to select a particular DOM element using the dom selector methods discussed_
 _in Section13_DOM_Manipulation_
 
-_the Exercise14_DOM_Manipulation contains a color changer application which makes use of DOM events learnt so far. We also make a score keeper app
+_The Exercise14_DOM_Manipulation contains a color changer application which makes use of DOM events learnt so far. We also make a score keeper app
 using the same concepts. The original app made by the author is also available_
+
+_The Exercise15_RGBColor Game has been done as a part of RGBColorGame in my github repository. Please check that project_
+
+_The Exercise16_jQuery has the following examples_
