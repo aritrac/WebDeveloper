@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)val()
+		 2)text()
+		 3)attr()
+		 4)html()
+		 5)addClass()
+		 6)removeClass()
+		 7)toggleClass()
+	-->
+	<h1>jQuery Method Demo Page</h1>
+
+	<input type="text" placeholder="your name">
+
+	<select>
+		<option>Ostrich</option>
+		<option>Turtle</option>
+		<option>Toad</option>
+	</select>
+</body>
+<script type="text/javascript">
+	//initial text input value. Will output an empty string
+	console.log($("input").val());
+
+	//Setting the input value to a custom string
+	$("input").val("This string is now set");
+
+	//Printing out the user selection on the dropdown
+	console.log($("select").val());
+</script>
+</html>

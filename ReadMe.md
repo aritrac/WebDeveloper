@@ -50,6 +50,8 @@ _The Section16_jQuery has tutorials on how to effectively use jQuery for day to 
 _how to use jQuery library locally and over CDN and what is the difference between minified and normal version_
 _manipulating css using jquery with id class and element selectors_
 _We also use text() and html() jQuery methods and attr() method to manipulate the element properties_
+_We next demonstrate the val() method which extracts the value of the HTML element_
+_We next get a taste of removeclass() and toggleClass() to turn specific CSS classes on or off from the DOM element_
 
 ####Exercises
 ***
