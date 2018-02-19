@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)click()
+		 2)keypress()
+		 3)on()
+	-->
+	<input type="text">
+	<button id="submit">Submit</button>
+	<button>Submit 2</button>
+	<button>Submit 3</button>
+</body>
+<script type="text/javascript">
+	//capturing the keypress event and outputting a constant string
+	$("input").keypress(function(event){
+		if(event.which == 13)
+			console.log("you pressed the enter key");
+	});
+
+	//capturing the keypress event and finding out the key that was pressed and acting on it
+
+</script>
+</html>
