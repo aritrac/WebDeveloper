@@ -49,6 +49,7 @@ _The Section15_RGB Color Game has been done as a separate github project and wil
 _The Section16_jQuery has tutorials on how to effectively use jQuery for day to day development purpose. We learn_
 _how to use jQuery library locally and over CDN and what is the difference between minified and normal version_
 _manipulating css using jquery with id class and element selectors_
+_We also use text() and html() jQuery methods and attr() method to manipulate the element properties_
 
 ####Exercises
 ***

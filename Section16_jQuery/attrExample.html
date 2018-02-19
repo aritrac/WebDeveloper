@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)val()
+		 2)text()
+		 3)attr()
+		 4)html()
+		 5)addClass()
+		 6)removeClass()
+		 7)toggleClass()
+	-->
+	<h1>jQuery Method Demo Page</h1>
+	<input type="text" placeholder="your name"><br/>
+	<img src="images/demoImage.jpg"><br/>
+	<img src="images/demoImage.jpg"><br/>
+	<img src="images/demoImage.jpg"><br/>
+	<a href="http://www.google.com">Go To Google</a>
+</body>
+<script type="text/javascript">
+
+	//Changing text input to a color input
+	$("input").attr("type","color");
+
+	//Prints out http://www.google.com
+	console.log($("a").attr("href"));
+
+	//Sets href to point to hhtp://www.bing.com
+	$("a").attr("href","http://www.bing.com");
+	console.log($("a").attr("href"));
+
+	//Printing out image dimensions
+	console.log($("img").css("width"));
+
+	//Chaning the image dimensions to 400px
+	$("img").css("width","400px");
+
+	//Printing out image source
+	console.log($("img").attr("src"));
+
+	//Changing image source to point to the second image. This will change all 3 images
+	$("img").attr("src","images/demoImage2.jpg");
+
+	//Changing image source of the first tag to point to the first image. This will only change the first one
+	$("img:first-of-type").attr("src","images/demoImage.jpg");
+
+	//Chaning the last image source to that of the first image method 1
+	$("img:last-of-type").attr("src","images/demoImage.jpg");
+
+	//Chaning the last image source to that of the first image method 2
+	$("img").last().attr("src","images/demoImage.jpg");
+
+</script>
+</html>
