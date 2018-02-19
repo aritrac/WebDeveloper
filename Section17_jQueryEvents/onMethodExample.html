@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)click()
+		 2)keypress()
+		 3)on()
+	-->
+	<h1>On Method Example</h1>
+	<h1>On Method Example 2</h1>
+	<h1>On Method Example 3</h1>
+	<input type="text">
+	<button id="submit">Submit</button>
+	<button>Submit 2</button>
+	<button>Submit 3</button>
+</body>
+<script type="text/javascript">
+	//prints when item with id 'submit' is clicked
+	$('#submit').on('click', function(){
+		console.log("Another click");
+	});
+
+	//Alerts when any button is clicked
+	$('button').on('click', function(){
+		console.log("button clicked!");
+	});
+
+	//prints when input of type text element has keypressed on them
+	$('input[type="text"]').on('keypress', function(){
+		console.log("keypress occurred");
+	});
+
+	//Change color of h1 on clicking it
+	$("h1").on("click",function(){
+		$(this).css("backgroundColor","green");
+	});
+
+	//Change color of all h1 elements when any one is clicked. Comment this out to check the behaviour of the first one
+	$("h1").on("click",function(){
+		$("h1").css("backgroundColor","red");
+	});
+
+	//Change button font to be bolded when hovered over
+	$("button").on("mouseenter",function(){
+		$(this).css("font-weight","bold");
+	});
+
+	//Change button font to original when mouse leaves the element
+	$("button").on("mouseleave",function(){
+		$(this).css("font-weight","normal");
+	})
+
+</script>
+</html>
