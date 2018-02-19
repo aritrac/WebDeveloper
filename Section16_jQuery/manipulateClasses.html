@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Demo</title>
+	<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+	<style type="text/css">
+		.correct {
+			color: green;
+		}
+
+		.wrong {
+			color: red;
+			background-color: pink;
+		}
+
+		.done {
+			color: gray;
+			text-decoration: line-through;
+		}
+	</style>
+</head>
+<body>
+<h1>jQuery Demo!</h1>
+<ul>
+	<li>Skittles</li>
+	<li>Starburst</li>
+	<li>Twix</li>
+</ul>   
+
+<script type="text/javascript">
+	//adding .correct class to h1 element
+	$("h1").addClass("correct");
+
+	//removing .correct class from the h1 element
+	$("h1").removeClass("correct");
+
+	//adding .wrong class to all the li elements
+	$("li").addClass("wrong");
+
+	//removing .wrong class from all the li elements
+	$("li").removeClass("wrong");
+
+	//adding .correct class to all the li elements
+	$("li").addClass("correct");
+
+	//toggling .correct class to all the li elements
+	$("li").toggleClass("correct");
+
+	//toggling .correct class to all the li elements
+	$("li").toggleClass("correct");
+
+	//toggling .correct class for the first li element
+	$("li").first().toggleClass("done");
+
+	//Now once again toggling all the li elements with the done class
+	$("li").toggleClass("done");
+</script>
+</body>
+</html>
