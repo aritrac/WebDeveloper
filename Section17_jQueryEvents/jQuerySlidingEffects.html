@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery effects demo</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: orange;
+			float: left;
+			margin: 20px;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div>Please don't fade me!</div>
+	<div>I'm begging you, please!</div>
+	<div>Help help help!</div>
+	<button id="slidedown">Click Me For Slide Down</button>
+	<button id="slideup">Click Me For Slide Up</button>
+	<button id="slidetoggle">Click Me For Slide Toggle</button>
+</body>
+<script type="text/javascript">
+	$("#slidedown").on("click",function(){
+		$('div').slideDown();
+	});
+
+	$("#slideup").on("click", function(){
+		$('div').slideUp();
+	});
+
+	$("#slidetoggle").on("click", function(){
+		$('div').slideToggle();
+	})
+</script>
+</html>

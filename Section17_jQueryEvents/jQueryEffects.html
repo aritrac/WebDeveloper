@@ -3,13 +3,43 @@
 <head>
 	<title>jQuery effects demo</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: orange;
+			float: left;
+			margin: 20px;
+			display: block;
+		}
+	</style>
 </head>
 <body>
-	<button id="submit">Submit</button>
-	<button>Submit 2</button>
-	<button>Submit 3</button>
+	<div>Please don't fade me!</div>
+	<div>I'm begging you, please!</div>
+	<div>Help help help!</div>
+	<button id="fadeout">Click Me For FadeOut</button>
+	<button id="fadein">Click Me For FadeIn</button>
+	<button id="fadetoggle">Click Me For Fade Toggle</button>
 </body>
 <script type="text/javascript">
-	
+	$("#fadeout").on("click",function(){
+		$("div").fadeOut("slow",function(){
+			//$(this).remove();
+			console.log("Fade out completed");
+		})
+	});
+
+	$("#fadein").on("click",function(){
+		$("div").fadeIn("slow",function(){
+			console.log("Fade in completed");
+		});
+	});
+
+	$("#fadetoggle").on("click",function(){
+		$("div").fadeToggle("slow",function(){
+			console.log("Fade toggle completed");
+		});
+	})
 </script>
 </html>
