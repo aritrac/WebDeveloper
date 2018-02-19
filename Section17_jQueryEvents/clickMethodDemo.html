@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery common methods</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- The following 7 methods will be discussed 
+		 1)click()
+		 2)keypress()
+		 3)on()
+	-->
+	<button id="submit">Submit</button>
+	<button>Submit 2</button>
+	<button>Submit 3</button>
+</body>
+<script type="text/javascript">
+	//prints when item with id 'submit' is clicked
+	$('#submit').click(function(){
+		console.log("Another click");
+	})
+
+	//alerts when any button is clicked
+	$("button").click(function(){
+		var text = $(this).text();
+		alert("button " + text + " was clicked!");
+	});
+
+	//changing the css of the button that was clicked
+	$("button").click(function(){
+		$(this).css("backgroundColor","pink");
+	});
+</script>
+</html>

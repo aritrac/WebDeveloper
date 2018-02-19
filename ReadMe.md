@@ -53,6 +53,8 @@ _We also use text() and html() jQuery methods and attr() method to manipulate th
 _We next demonstrate the val() method which extracts the value of the HTML element_
 _We next get a taste of removeclass() and toggleClass() to turn specific CSS classes on or off from the DOM element_
 
+_The Section17_jQueryEvents demonstrates click() keypress() and on() methods_
+
 ####Exercises
 ***
 
@@ -99,3 +101,5 @@ using the same concepts. The original app made by the author is also available_
 _The Exercise15_RGBColor Game has been done as a part of RGBColorGame in my github repository. Please check that project_
 
 _The Exercise16_jQuery has css manipulation exercise using jQuery. The specific questions are included in the example itself_
+
+_The Exercise17_jQueryEvents has the following_
