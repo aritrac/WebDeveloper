@@ -55,6 +55,10 @@ _We next get a taste of removeclass() and toggleClass() to turn specific CSS cla
 
 _The Section17_jQueryEvents demonstrates click() keypress() and on() methods_
 
+_The Section18_toDoList In this we created a todo list application with javascript html css and jquery_
+
+_The Section19 consists of creating a patatap clone -> https://patatap.com/_
+
 ####Exercises
 ***
 
@@ -103,3 +107,7 @@ _The Exercise15_RGBColor Game has been done as a part of RGBColorGame in my gith
 _The Exercise16_jQuery has css manipulation exercise using jQuery. The specific questions are included in the example itself_
 
 _The Exercise17_jQueryEvents has the following_
+
+_The Exercise18 consisted of creating the toDo List application_
+
+_The Exercise19 consists of creating a a patatap clone -> https://patatap.com/_
